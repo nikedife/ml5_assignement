@@ -1,0 +1,90 @@
+MACHINE LEARNING
+ASSIGNMENT - 5
+Q1 to Q15 are subjective answer type questions, Answer them briefly.
+1. R-squared or Residual Sum of Squares (RSS) which one of these two is a better measure of 
+goodness of fit model in regression and why?
+
+R-squared is a better measure of goodness of fit of a regression model.Because it takes into consideration the average of the actual value and the error derived from the difference between the predicted and the actual value.
+
+2. What are TSS (Total Sum of Squares), ESS (Explained Sum of Squares) and RSS (Residual Sum 
+of Squares) in regression. Also mention the equation relating these three metrics with each other.
+
+TSS is the sum total of the square of the difference between the predicted value and the actual value of the data.
+RSS is the sume total of the square of the difference between the actual value and the average of the actual value.
+ESS is the difference between the total sum of squares and residual sum of squares
+
+total sum of squares (TSS) = explained sum of squares (ESS) + residual sum of squares (RSS).
+
+
+3. What is the need of regularization in machine learning? 
+Regularization refers to techniques that are used to calibrate machine learning models in order to minimize the adjusted loss function and prevent overfitting or underfitting.
+
+
+4. What is Gini–impurity index? 
+Gini Index or Gini impurity measures the degree or probability of a particular variable being wrongly classified when it is randomly chosen.
+Gini Impurity is also a measurement used to build Decision Trees to determine how the features of a dataset should split nodes to form the tree.
+
+5. Are unregularized decision-trees prone to overfitting? If yes, why? 
+Decision trees are prone to overfitting.
+This is due to the amount of specificity we look at leading to smaller sample of events that meet the previous assumptions. This small sample could lead to unsound conclusions.
+
+
+6. What is an ensemble technique in machine learning? 
+Ensemble methods are techniques that aim at improving the accuracy of results in models by combining multiple models instead of using a single model.
+The combined models increase the accuracy of the results significantly.
+
+
+7. What is the difference between Bagging and Boosting techniques? 
+Bagging is a technique for reducing prediction variance by producing additional data for training from a dataset by combining repetitions with combinations to create multi-sets of the original data. 
+Boosting is an iterative strategy for adjusting an observation's weight based on the previous classification.
+
+
+8. What is out-of-bag error in random forests? 
+Out-of-bag (OOB) error, also called out-of-bag estimate, is a method of measuring the prediction error of random forests, 
+boosted decision trees, and other machine learning models utilizing bootstrap aggregating (bagging)
+
+
+9. What is K-fold cross-validation? 
+K-fold Cross-Validation is when the dataset is split into a K number of folds and is used to evaluate the model's ability when given new data. 
+K refers to the number of groups the data sample is split into.
+
+
+10. What is hyper parameter tuning in machine learning and why it is done? 
+Hyperparameter tuning consists of finding a set of optimal hyperparameter values for a learning algorithm while applying this optimized algorithm to any data set. 
+That combination of hyperparameters maximizes the model's performance, minimizing a predefined loss function to produce better results with fewer errors
+
+
+11. What issues can occur if we have a large learning rate in Gradient Descent? 
+In order for Gradient Descent to work, we must set the learning rate to an appropriate value. 
+This parameter determines how fast or slow we will move towards the optimal weights. 
+If the learning rate is very large we will skip the optimal solution
+
+
+12. Can we use Logistic Regression for classification of Non-Linear Data? If not, why?
+
+Non-linear problems can't be solved with logistic regression because it has a linear decision surface.
+
+13. Differentiate between Adaboost and Gradient Boosting.
+AdaBoost is the first designed boosting algorithm with a particular loss function. 
+On the other hand, Gradient Boosting is a generic algorithm that assists in searching the approximate solutions to the additive modelling problem. 
+This makes Gradient Boosting more flexible than AdaBoost
+
+
+14. What is bias-variance trade off in machine learning?
+Bias is the simplifying assumptions made by the model to make the target function easier to approximate. 
+Variance is the amount that the estimate of the target function will change given different training data. 
+Trade-off is tension between the error introduced by the bias and the variance
+
+
+15. Give short description each of Linear, RBF, Polynomial kernels used in SVM
+
+Linear Kernel is used when the data is Linearly separable, that is, it can be separated using a single Line. 
+It is one of the most common kernels to be used. 
+It is mostly used when there are a Large number of Features in a particular Data Set.
+
+Radial basis function kernel, or RBF kernel, is a popular kernel function used in various kernelized learning algorithms. 
+In particular, it is commonly used in support vector machine classification.
+
+polynomial kernel is a kernel function commonly used with support vector machines (SVMs) and other kernelized models, 
+that represents the similarity of vectors (training samples) in a feature space over polynomials of the original variables, 
+allowing learning of non-linear models.
